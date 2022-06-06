@@ -1,3 +1,28 @@
+/* The Universal Selector */
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+  /* height & width will now include border & padding by default
+     but can be over-ridden as needed */
+  box-sizing: inherit;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  background-color: #40514E;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  }  
+
+nav > div {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 10px;
+  color: whitesmoke;
+}
+
 /* body {
   color: #40514E;
   margin: 0;
@@ -156,13 +181,14 @@ h1.landing-text {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
-  text-align: center;
-}
+  /* text-align: center;
+} */
 
-h2.landing-text {
+/* h2.landing-text {
   position: absolute;
   top: 50%;
   left: 50%;
   margin-top: 10px;
   margin-left: -100px;
-} */ */
+} */ 
+
