@@ -1,4 +1,4 @@
-body {
+/* body {
   color: #40514E;
   margin: 0;
   text-align: center;
@@ -48,17 +48,21 @@ p {
   line-height: 2;
 }
 
-.top-container {
+div {
+  height: 100vh;
+}
+
+.landing-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {
+.about-container {
   margin: 100px 0;
 }
 
-.bottom-container {
+.contact-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
 }
@@ -69,11 +73,11 @@ p {
   text-align: left;
 }
 
-.pro {
+/* .pro {
   text-decoration: underline;
-}
+} */
 
-.intro {
+/* .intro {
   width: 30%;
   margin: auto;
 }
@@ -88,6 +92,12 @@ p {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+.mountain {
+  display: flex;
+  bottom: 0;
+  align-items: center;
 }
 
 .top-cloud {
@@ -140,3 +150,19 @@ p {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+h1.landing-text {
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  text-align: center;
+}
+
+h2.landing-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 10px;
+  margin-left: -100px;
+} */ */

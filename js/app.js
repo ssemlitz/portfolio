@@ -1,6 +1,16 @@
+/*-------------------------------- Constants --------------------------------*/
+
+/*---------------------------- Variables (state) ----------------------------*/
+
+/*------------------------ Cached Element References ------------------------*/
+
 const h1 = document.querySelector('h1')
 
+/*----------------------------- Event Listeners -----------------------------*/
+
 h1.addEventListener('click', h1TextBounce)
+
+/*-------------------------------- Functions --------------------------------*/
 
 function h1TextBounce() {
   h1.classList.add('animate__bounce')
