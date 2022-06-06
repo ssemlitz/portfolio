@@ -7,16 +7,22 @@
   box-sizing: inherit;
 }
 
-nav {
+div {
+  height: 100vh;
+}
+
+.navbar {
+  position: fixed;
   display: flex;
   height: 60px;
   background-color: #40514E;
   flex-direction: row;
   align-items: center;
   justify-content: right;
+  width: 100%;
   }  
 
-nav > ul {
+.navbar > ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -26,7 +32,11 @@ nav > ul {
   list-style: none;
 }
 
-nav > ul > li {
+.navbar a {
+  float: right;
+  display: block;
+  text-align: center;
+  text-decoration: none;
   font-size: 20px;
   margin: 0 10px;
   color: whitesmoke;
