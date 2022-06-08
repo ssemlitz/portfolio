@@ -28,7 +28,6 @@ function h1RemoveTextBounce() {
 
 import { projectData } from "./project-data.js"
 
-
 let projectMarkup = projectData.map(project =>
   `
     <div class="card text-center" style="width: 18rem;">

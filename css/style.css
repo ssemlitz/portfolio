@@ -7,6 +7,18 @@
   box-sizing: inherit;
 }
 
+body{
+  --heading-color: #66bfbf;
+  --bg-color: #e4f9f5;
+  background-color: var(--bg-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--heading-color);
+}
+
 .navbar {
   position: fixed;
   display: flex;
@@ -48,22 +60,7 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  /* display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(5, 20%);
-  height: 100vh;
-  width: 100vw;
-  justify-items: center;
-  align-items: center; */
 }
-
-/* .landing-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-} */
 
 .landing-h1 {
   display: flex;
@@ -79,32 +76,12 @@
   flex-direction: column;
 }
 
-/* .landing-h1 {
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
-  font-size: clamp(32px, 6vw, 40px);
-}
-
-.landing-h2 {
-  grid-column: 3 /4;
-  grid-row: 3/4;
-  margin-top: 5em;
-  font-size: clamp(12px, 6vw, 24px);
-} */
-
-/* .about-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-} */
-
 .about-h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 20px 0;
 }
 
 .about-img {
@@ -112,6 +89,13 @@
   grid-row: 2/3;
   height: 200px;
   width: 200px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .about-p {
@@ -122,40 +106,12 @@
   width: 60ch;
 }
 
-
-/* .about-h2 {
-  grid-column: 3 / 4;
-  grid-row: 1/ 2;
-}
-
-.about-img {
-  grid-column: 3/4;
-  grid-row: 2/3;
-  height: 200px;
-  width: 200px;
-}
-
-.about-p {
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
-} */
-
 .skills-h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* grid-column: 3 / 4;
-  grid-row: 2 / 3; */
 }
-
-/* .work-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-} */
 
 .work-h2 {
   display: flex;
