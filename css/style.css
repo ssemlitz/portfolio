@@ -118,7 +118,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 60ch;
+  max-width: 80ch;
 }
 
 .skills-h2 {
