@@ -6,6 +6,7 @@
 
 const h1 = document.querySelector('h1')
 const cardContainer = document.getElementById('card-container')
+const workH2 = document.querySelector('.work-h2')
 
 /*----------------------------- Event Listeners -----------------------------*/
 
@@ -46,4 +47,4 @@ let projectMarkup = projectData.map(project =>
 
 cardContainer.innerHTML = projectMarkup
 
-console.log('#work-h2')
+console.log(workH2)
