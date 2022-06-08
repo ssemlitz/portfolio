@@ -15,7 +15,7 @@ const body = document.querySelector("body")
 
 h1.addEventListener('click', h1TextBounce)
 
-lightDarkBtn.addEventListener("click", toggleLightDark)
+// lightDarkBtn.addEventListener("click", toggleLightDark)
 
 /*-------------------------------- Functions --------------------------------*/
 
