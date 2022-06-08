@@ -8,14 +8,14 @@ let projectData = [
   },
   {
     title: 'Flashcards',
-    deployment: '',
+    deployment: 'https://ssemlitz-tic-tac-toe.netlify.app/',
     image: './assets/images/python-flashcard-project.png',
     github: '',
     description: "A python project designed to make flashcards and then create a new text file of the words you don't know."
   },
   {
     title: 'Snake',
-    deployment: '',
+    deployment: 'https://ssemlitz-tic-tac-toe.netlify.app/',
     image: './assets/images/python-snake.png',
     github: '',
     description: "A python project designed with OOP in mind to create the classic game Snake."

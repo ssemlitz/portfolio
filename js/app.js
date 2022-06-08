@@ -8,9 +8,14 @@ const h1 = document.querySelector('h1')
 const cardContainer = document.getElementById('card-container')
 const workH2 = document.querySelector('.work-h2')
 
+const lightDarkBtn = document.querySelector("#light-dark-button")
+const body = document.querySelector("body")
+
 /*----------------------------- Event Listeners -----------------------------*/
 
 h1.addEventListener('click', h1TextBounce)
+
+lightDarkBtn.addEventListener("click", toggleLightDark)
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -23,6 +28,25 @@ function h1TextBounce() {
 function h1RemoveTextBounce() {
   h1.classList.remove('animate__bounce')
 }
+
+function toggleLightDark() {
+  body.className = body.className === "dark" ? "" : "dark"
+}
+
+function toggleLightDark() {
+  body.className = body.className === "dark" ? "" : "dark"
+}
+
+function checkDarkPref() {
+  if (
+    window.matchMedia("(prefers-color-scheme:dark)").matches &&
+    body.className !== "dark"
+  ) {
+    toggleLightDark()
+  }
+}
+
+checkDarkPref()
 
 /*-------------------------------- Import Project Cards --------------------------------*/
 

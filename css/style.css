@@ -10,6 +10,7 @@
 body{
   --heading-color: #66bfbf;
   --bg-color: #e4f9f5;
+  --light-dark-btn-content: "Dark Mode";
   background-color: var(--bg-color);
 }
 
@@ -139,138 +140,28 @@ h3 {
 	width: 100%;
 }
 
-
-
-
-
-
-/* body {
-  color: #40514E;
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-}
-
-h1 {
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  color: #66BFBF;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  text-align: center;
-  color: #66BFBF;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
-}
-
-hr {
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
-
-a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #EAF6F6;
-}
-
-p {
-  line-height: 2;
-}
-
-div {
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
 }
 
-.landing-container {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
-}
-
-.about-container {
-  margin: 100px 0;
-}
-
-.contact-container {
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-
-/* .pro {
-  text-decoration: underline;
-} */
-
-/* .intro {
-  width: 30%;
-  margin: auto;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-
-.copyright {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-.mountain {
+.resume-div {
   display: flex;
-  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
-.computer-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.chilli-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px
-}
-
-.btn {
+.contact-btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
@@ -287,7 +178,7 @@ div {
   text-decoration: none;
 }
 
-.btn:hover {
+.contact-btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -296,5 +187,25 @@ div {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+#light-dark-button {
+  background-color: var(--light-dark-btn-bg);
+}
+
+#light-dark-button::after {
+  border: none;
+  color: var(--inverted-btn-text-color);
+  content: var(--light-dark-btn-content);
+}
+
+body.dark {
+  --bg-color: #22232b;
+  --light-dark-btn-content: "Light Mode";
+  background-color: var(--body-bg);
+}
+
+
+
+
 
 
