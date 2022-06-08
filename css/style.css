@@ -217,9 +217,9 @@ h3 {
 body.dark {
   --bg-color: #22232b;
   --btn-text-color: #eaeaea;
-  --inverted-btn-text-color: #2a2a2a;
+  --inverted-btn-text-color: #eaeaea;
   --light-dark-btn-content: "Light Mode";
-  background-color: var(--body-bg);
+  background-color: var(--bg-color);
 }
 
 .dark-light-btn {
