@@ -11,13 +11,31 @@ body{
   --heading-color: #66bfbf;
   --bg-color: #e4f9f5;
   --light-dark-btn-content: "Dark Mode";
+  --inverted-btn-text-color: #eaeaea;
+  --light-dark-btn-bg: #1d1e2b;
   background-color: var(--bg-color);
+  font-family: 'Merriweather', serif;
 }
 
 h1,
 h2,
 h3 {
   color: var(--heading-color);
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -50,10 +68,6 @@ h3 {
   margin: 0 10px;
   color: whitesmoke;
 }
-
-/* h1 {
-  text-align: center;
-} */
 
 .page-container {
   display: flex;
@@ -153,6 +167,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 250px;
 }
 
 .contact-me {
@@ -186,6 +201,7 @@ h3 {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+  color: #ffffff;
 }
 
 #light-dark-button {
@@ -200,10 +216,15 @@ h3 {
 
 body.dark {
   --bg-color: #22232b;
+  --btn-text-color: #eaeaea;
+  --inverted-btn-text-color: #2a2a2a;
   --light-dark-btn-content: "Light Mode";
   background-color: var(--body-bg);
 }
 
+.dark-light-btn {
+  margin-right: 50;
+}
 
 
 

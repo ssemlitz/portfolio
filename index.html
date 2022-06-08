@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scott Semlitz Portfolio</title>
   <link rel="icon" href="./assets/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
   <link
 	rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -19,7 +22,8 @@
 <body>
   <nav class="navbar">
     <ul>
-      <li><a href="#landing-div"><img src="./assets/images/hair-volume.png" alt="" height="50" width="50"></a></li>
+      <li class="logo"><a href="#landing-div"><img src="./assets/images/hair-volume.png" alt="" height="50" width="50"></a></li>
+      <li class="light-dark-btn"><button id="light-dark-button"></button></li>
       <li><a href="#landing-div">Home</a></li>
       <li><a href="#about-div">About</a></li>
       <li><a href="#skills-div">Skills</a></li>
@@ -30,7 +34,7 @@
   </nav>
   
   <section class="landing-container page-container" id="landing-div">
-    <button id="light-dark-button" class="btn"></button>
+    
     <h1 class="landing-h1 animate__animated landing-text">I'm Scott.</h1>
     <h2 class="landing-h2 landing-text">a programmer.</h2>
   </section>
@@ -45,7 +49,7 @@
     
   <section class="skills-container page-container" id="skills-div">
     <h2 class="skills-h2">My Skills.</h2>
-    <!-- bootstrap popovers for logos -->
+    <!-- bootstrap popovers for icons -->
     </section>
 
   <section class="work-container page-container" id="work-div">
