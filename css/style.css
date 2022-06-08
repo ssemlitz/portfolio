@@ -13,29 +13,31 @@ body{
   --light-dark-btn-content: "Dark Mode";
   --inverted-btn-text-color: #eaeaea;
   --light-dark-btn-bg: #1d1e2b;
+  --text-color: #22232b;
   background-color: var(--bg-color);
   font-family: 'Merriweather', serif;
-}
-
-h1,
-h2,
-h3 {
-  color: var(--heading-color);
 }
 
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
+  color: var(--heading-color);
 }
 
 h2 {
   font-size: 2.5rem;
+  color: var(--heading-color);
 }
 
 h2,
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: var(--heading-color);
+}
+
+.body-text {
+  color: var(--text-color);
 }
 
 .navbar {
@@ -47,6 +49,7 @@ h3 {
   align-items: center;
   justify-content: right;
   width: 100%;
+  z-index: 2;
   }  
 
 .navbar > ul {
@@ -60,13 +63,20 @@ h3 {
 }
 
 .navbar a {
-  float: right;
   display: block;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
   margin: 0 10px;
   color: whitesmoke;
+}
+
+.navbar-logo-ltdrk {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-items: center;
+  flex-direction: row;
 }
 
 .page-container {
@@ -137,7 +147,7 @@ h3 {
 
 .card {
   margin: 10px;
-  /* z-index: -1; */
+  color: #22232b;
 }
 
 .card-body {
@@ -219,6 +229,7 @@ body.dark {
   --btn-text-color: #eaeaea;
   --inverted-btn-text-color: #eaeaea;
   --light-dark-btn-content: "Light Mode";
+  --text-color: #eaeaea;
   background-color: var(--bg-color);
 }
 
@@ -226,6 +237,10 @@ body.dark {
   margin-right: 50;
 }
 
+@media only screen and (max-width: 768px) {
+
+
+}
 
 
 
