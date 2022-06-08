@@ -24,7 +24,7 @@ function h1RemoveTextBounce() {
   h1.classList.remove('animate__bounce')
 }
 
-
+/*-------------------------------- Import Project Cards --------------------------------*/
 
 import { projectData } from "./project-data.js"
 
