@@ -20,7 +20,6 @@ body{
   --text-color: #22232b;
   background-color: var(--bg-color);
   font-family: 'Merriweather', serif;
-  
 }
 
 h1 {
@@ -106,7 +105,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 50vh;
+  min-height: 50vh;
   padding-top: 60px;
 }
 
@@ -161,6 +160,13 @@ h3 {
   flex-direction: column;
 }
 
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 .work-container {
   margin-top: 150px;
 }
@@ -196,7 +202,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .resume-div {
@@ -299,7 +305,7 @@ body.dark {
   }
 
   .work-container {
-    padding-top: 10px;
+    margin-top: 100px;
   }
 
   h3 {
