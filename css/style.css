@@ -46,10 +46,10 @@ h3 {
 
 .navbar {
   position: fixed;
-  /* display: flex; */
+  display: flex;
   height: 60px;
   background-color: #40514E;
-  /* flex-direction: row; */
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   width: 100%;
@@ -58,8 +58,8 @@ h3 {
 
 .nav-list {
   list-style: none;
-  display: inline-block;
-
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-list .list-item {
@@ -97,8 +97,6 @@ h3 {
   align-items: center;
   flex-direction: row;
 }
-
-
 
 .page-container {
   display: flex;
@@ -278,7 +276,7 @@ body.dark {
   margin-right: 50;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     height: 80px;
   }
