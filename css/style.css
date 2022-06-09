@@ -73,24 +73,6 @@ h3 {
   color: #eaeaea;
   text-decoration: none;
 }
-/* .navbar > ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-  font-weight: bold;
-  list-style: none;
-}
-
-.navbar a {
-  display:  inline-block;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 0 10px;
-  color: whitesmoke;
-} */
 
 .navbar-logo-ltdrk {
   display: flex;
@@ -168,7 +150,7 @@ h3 {
 }
 
 .work-container {
-  margin-top: 150px;
+  padding-top: 150px;
 }
 
 .work-h2 {
@@ -202,7 +184,8 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 60vh;
+  padding-top: 150px;
 }
 
 .resume-div {
