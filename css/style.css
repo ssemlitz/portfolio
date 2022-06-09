@@ -20,6 +20,7 @@ body{
   --text-color: #22232b;
   background-color: var(--bg-color);
   font-family: 'Merriweather', serif;
+  
 }
 
 h1 {
@@ -105,6 +106,7 @@ h3 {
   align-items: center;
   flex-direction: column;
   height: 50vh;
+  padding-top: 60px;
 }
 
 .landing-h1 {
@@ -156,6 +158,10 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.work-container {
+  padding-top: 150px;
 }
 
 .work-h2 {
