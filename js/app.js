@@ -7,6 +7,8 @@
 const h1 = document.querySelector('h1')
 const cardContainer = document.getElementById('card-container')
 const workH2 = document.querySelector('.work-h2')
+const copyrightBtn = document.getElementById('copyright-btn')
+const hiddenContactBtns = document.getElementById('hidden-contact-btns')
 
 const lightDarkBtn = document.querySelector("#light-dark-button")
 const body = document.querySelector("body")
@@ -16,6 +18,8 @@ const body = document.querySelector("body")
 h1.addEventListener('click', h1TextBounce)
 
 lightDarkBtn.addEventListener("click", toggleLightDark)
+
+copyrightBtn.addEventListener("click", revealHiddenBtns)
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -27,6 +31,10 @@ function h1TextBounce() {
 
 function h1RemoveTextBounce() {
   h1.classList.remove('animate__bounce')
+}
+
+function revealHiddenBtns() {
+  hiddenContactBtns.removeAttribute('hidden')
 }
 
 function toggleLightDark() {
