@@ -38,6 +38,7 @@ h2,
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: var(--heading-color);
+  font-weight: bolder;
 }
 
 .body-text {
