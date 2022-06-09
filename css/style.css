@@ -283,6 +283,11 @@ body.dark {
     height: 80px;
   }
 
+  .logo-img {
+    height: 30px;
+    width: 30px;
+  }
+
   .about-p {
     margin: 0 50px;
   }
