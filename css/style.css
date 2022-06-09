@@ -7,6 +7,10 @@
   box-sizing: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   --heading-color: #66bfbf;
   --bg-color: #e4f9f5;
@@ -47,7 +51,7 @@ h3 {
   background-color: #40514E;
   flex-direction: row;
   align-items: center;
-  justify-content: right;
+  justify-content: ;
   width: 100%;
   z-index: 2;
   }  
@@ -73,7 +77,7 @@ h3 {
 
 .navbar-logo-ltdrk {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   justify-items: flex-start;
   align-items: center;
   flex-direction: row;
