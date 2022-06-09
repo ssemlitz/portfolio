@@ -164,7 +164,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .work-container {
@@ -211,6 +211,14 @@ h3 {
   align-items: center;
   flex-direction: column;
   padding-top: 250px;
+}
+
+.resume-h2 {
+  margin-top: -400px;
+}
+
+.contact-h2 {
+  margin-top: -300px;
 }
 
 .contact-me {
@@ -291,30 +299,50 @@ body.dark {
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar {
-    height: 80px;
-  }
-
-  .logo-img {
-    height: 30px;
-    width: 30px;
-  }
-
-  .about-p {
-    margin: 0 50px;
-  }
-
-  .work-container {
-    margin-top: 100px;
-  }
-
   h3 {
     margin: 0 30px;
     text-align: center;
   }
+  .page-container {
+    min-height: 30vh;
+  }
 
+  .navbar {
+    height: 80px;
+  }
+  
+  .logo-img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .about-p {
+    margin: 0 50px;
+  }
+  
+  .skills-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-svg {
+    display: flex;
+    margin: 20px auto;
+  }
+  
+  .work-container {
+    margin-top: -20px;
+  }
+  
+  
   .list-item {
     font-size: small;
+  }
+  
+  .copyright {
+    margin-top: 10px;
   }
 
 }
