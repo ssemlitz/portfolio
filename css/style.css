@@ -162,7 +162,7 @@ h3 {
 }
 
 .work-container {
-  padding-top: 150px;
+  margin-top: 150px;
 }
 
 .work-h2 {
@@ -296,6 +296,10 @@ body.dark {
 
   .about-p {
     margin: 0 50px;
+  }
+
+  .work-container {
+    padding-top: 10px;
   }
 
   h3 {
