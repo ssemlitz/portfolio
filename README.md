@@ -17,6 +17,7 @@ This is a portfolio created as my Unit 1 Project for my General Assembly Bootcam
 ## Credits
 - Icons and cards from [Bootstrap](https://getbootstrap.com/)
 - Animation from [Animate.css](https://animate.style/)
+- Favicon from [favicon.io](https://favicon.io/)
 
 ## Next steps 
 - Create button at bottom to scroll back to top
