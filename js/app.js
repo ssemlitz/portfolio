@@ -73,5 +73,3 @@ let projectMarkup = projectData.map(project =>
 ).join('')
 
 cardContainer.innerHTML = projectMarkup
-
-console.log(workH2)
