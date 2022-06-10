@@ -149,6 +149,10 @@ h3 {
   flex-direction: column;
 }
 
+.skill-svg {
+  color: var(--text-color);
+}
+
 .work-container {
   padding-top: 150px;
 }
