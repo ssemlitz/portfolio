@@ -7,6 +7,13 @@ let projectData = [
     description: 'A web browser game of tic-tac-toe with Dogs vs Cats.'
   },
   {
+    title: 'RT-Deals',
+    deployment: 'https://rt-deals.herokuapp.com/deals',
+    image: './assets/images/python-flashcard-project.png',
+    github: 'https://github.com/ssemlitz/rt-deals',
+    description: "A deal aggregator application created using the MEN stack."
+  },
+  {
     title: 'Flashcards',
     deployment: 'https://ssemlitz-tic-tac-toe.netlify.app/',
     image: './assets/images/python-flashcard-project.png',
