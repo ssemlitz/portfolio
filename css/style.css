@@ -285,6 +285,16 @@ body.dark {
   margin-right: 50;
 }
 
+.btn-primary {
+  background-color: darkcyan;
+  border-color: darkcyan;
+}
+
+.btn-secondary {
+  background-color: slategray;
+  border-color: slategray;
+}
+
 @media only screen and (max-width: 768px) {
   h3 {
     margin: 0 30px;
