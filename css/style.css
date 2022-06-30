@@ -290,6 +290,11 @@ body.dark {
   border-color: darkcyan;
 }
 
+.btn-primary:hover {
+  background-color: #11cdd4;
+  border-color: #11cdd4;
+}
+
 .btn-secondary {
   background-color: slategray;
   border-color: slategray;
