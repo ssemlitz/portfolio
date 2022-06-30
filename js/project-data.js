@@ -9,7 +9,7 @@ let projectData = [
   {
     title: 'RT-Deals',
     deployment: 'https://rt-deals.herokuapp.com/deals',
-    image: './assets/images/python-flashcard-project.png',
+    image: './assets/images/rt-deals-landing.png',
     github: 'https://github.com/ssemlitz/rt-deals',
     description: "A deal aggregator application created using the MEN stack."
   },
