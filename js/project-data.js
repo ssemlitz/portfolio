@@ -1,7 +1,7 @@
 let projectData = [
   {
     title: 'Zombodie 2 Love',
-    deployment: 'zombodie-2-love.netlify.app',
+    deployment: 'https://zombodie-2-love.netlify.app',
     image: '/assets/images/zombodie-2-love-landing.png',
     github: 'https://github.com/ssemlitz/zombodie-2-love-front-end',
     description: 'A zombie dating app built with the MERN stack.'
