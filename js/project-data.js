@@ -1,5 +1,12 @@
 let projectData = [
   {
+    title: 'FishBook',
+    deployment: 'https://fishbook-ss.herokuapp.com/',
+    image: '/assets/images/fishbook-landing.png',
+    github: 'https://github.com/ssemlitz/fish-collector',
+    description: 'A fish collecting app using Django.'
+  },
+  {
     title: 'Zombodie 2 Love',
     deployment: 'https://zombodie-2-love.netlify.app',
     image: '/assets/images/zombodie-2-love-landing.png',
