@@ -7,6 +7,13 @@ let projectData = [
     description: 'A fish collecting app using Django.'
   },
   {
+    title: 're/mind',
+    deployment: 'https://remind-jbs.netlify.app/',
+    image: '/assets/images/remind-landing.png',
+    github: 'https://github.com/ssemlitz/jbs-hackathon-front-end',
+    description: 'A mindfulness app built in a day with the MERN stack for a hackathon.'
+  },
+  {
     title: 'Zombodie 2 Love',
     deployment: 'https://zombodie-2-love.netlify.app',
     image: '/assets/images/zombodie-2-love-landing.png',
@@ -20,13 +27,6 @@ let projectData = [
     github: 'https://github.com/ssemlitz/rt-deals',
     description: "A deal aggregator application created using the MEN stack."
   },
-  {
-    title: 'Tic Tac Toe',
-    deployment: 'https://ssemlitz-tic-tac-toe.netlify.app/',
-    image: '/assets/images/tic-tac-toe.png',
-    github: 'https://github.com/ssemlitz/ttt-weekend',
-    description: 'A web browser game of tic-tac-toe with Dogs vs Cats.'
-  }
 ]
 
 export {

@@ -407,14 +407,14 @@ body.dark {
   }
 
   #resume-download-btn-small {
-    border-color: #40514E;
+    border-color: var(--heading-color);
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
     padding: 5px;
     margin: 15px;
     display: inline-block;
-    color: #40514E;
+    color: var(--heading-color);
     text-decoration: none;
   }
 }
