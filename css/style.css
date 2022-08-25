@@ -69,10 +69,6 @@ h3 {
   margin:  0 10px;
 }
 
-.list-item:hover {
-  text-decoration: underline;
-}
-
 .navbar a {
   color: #eaeaea;
   text-decoration: none;
