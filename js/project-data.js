@@ -1,5 +1,12 @@
 let projectData = [
   {
+    title: 'Watch-It',
+    deployment: 'https://watch-it-ss.netlify.app/',
+    image: '/assets/images/watch-it-landing.png',
+    github: 'https://github.com/ssemlitz/watch-it',
+    description: 'Current project making YouTube clone with MERN stack.'
+  },
+  {
     title: 'FishBook',
     deployment: 'https://fishbook-ss.herokuapp.com/',
     image: '/assets/images/fishbook-landing.png',
