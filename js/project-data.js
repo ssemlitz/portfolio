@@ -1,10 +1,10 @@
 let projectData = [
   {
-    title: 'Watch-It',
-    deployment: 'https://watch-it-ss.netlify.app/',
-    image: '/assets/images/watch-it-landing.png',
-    github: 'https://github.com/ssemlitz/watch-it',
-    description: 'Current project making YouTube clone with MERN stack.'
+    title: 'YelpCamp',
+    deployment: 'https://yelpcamp-ssemlitz.herokuapp.com/',
+    image: '/assets/images/yelpcamp-landing.png',
+    github: 'https://github.com/ssemlitz/yelpcampv2',
+    description: 'Current project: MEN stack CRUD application for posting information and reviews of campgrounds.'
   },
   {
     title: 'FishBook',
